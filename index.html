@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
- 
+
 
   <title>Frontend Mentor | Results summary component</title>
 
@@ -23,72 +23,78 @@
   <div class="container">
     <div class="cont">
 
-  
 
-    <!-- Result Section -->
-    <div class="Result">
-      <h3 class="Result-title">Your Result</h3>
-      <div class="Result-score">
-        <span class="Result-number">76</span> of 100
 
-      </div>
-      <div class="Result-text">
-        <div class="wrap">
+      <!-- Result Section -->
+      <div class="Result">
+        <div class="title">
 
-          <h2 class="Result-title-2">Great</h2>
-          
-          <p class="Result-subtext">
-            You scored higher than 65% of the people who have taken these tests
-            
-          </p>
+          <h3 class="Result-title">Your Result</h3>
         </div>
+        <div class="Result-score">
 
-      </div>
-
-
-    </div>
-
-    <!-- Summary Section  -->
-    <div class="Summary">
-      <h3 class="Summary-title">
-        Summary
-      </h3>
-      <div class="Summary-item">
-
-        <div class="Reaction">
-          <img class="Reaction-icon" src="./assets/images/icon-reaction.svg">
-          <span> Reaction </span>
-          <span> 80 <span> /100 </span></span>
+          <span class="Result-num"><span class="Result-number">76</span> of 100</span>
         </div>
+        <div class="Result-text">
+          <div class="wrap">
 
-        <div class="Memory">
-          <img class="Memory-icon" src="./assets/images/icon-memory.svg">
-          <span> Memory </span>
-          <span> 92 <span> /100 </span></span>
+            <h2 class="Result-title-2">Great</h2>
+
+            <p class="Result-subtext">
+              You scored higher than 65% of the people who have taken these tests
+
+            </p>
+          </div>
+
         </div>
-
-        <div class="Verbal">
-          <img class="Verbal-icon" src="./assets/images/icon-verbal.svg">
-          <span> Verbal </span>
-          <span> 61 <span> /100 </span></span>
-        </div>
-
-        <div class="Visual">
-          <img class="Visual-icon" src="./assets/images/icon-visual.svg">
-          <span> Visual </span>
-          <span> 72 <span> /100 </span></span>
-        </div>
-
-
-        <button class="Btn">Continue</button>
-
 
 
       </div>
-    </div>
-  </div>
 
-  </div>
+      <!-- Summary Section  -->
+      <div class="Summary">
+        <h3 class="Summary-title">
+          Summary
+        </h3>
+        <div class="summary-content">
+          <div class="Summary-item">
+
+
+            <div class="Reaction">
+              <img class="Reaction-icon" src="./assets/images/icon-reaction.svg">
+              <h3 class="summary-reaction"> Reaction </h3>
+              <p>
+
+                <span class="reaction-score"> 80 <span class="OutOf"> /100 </span></span>
+              </p>
+
+            </div>
+            <div class="Memory">
+              <img class="Memory-icon" src="./assets/images/icon-memory.svg">
+              <span class="Memory-title"> Memory </span>
+              <span class="memory-score"> 92 <span class="OutOf"> /100 </span></span>
+            </div>
+
+            <div class="Verbal">
+              <img class="Verbal-icon" src="./assets/images/icon-verbal.svg">
+              <span class="Verbal-title"> Verbal </span>
+              <span class="verbal-score"> 61 <span class="OutOf"> /100 </span></span>
+            </div>
+
+            <div class="Visual">
+              <img class="Visual-icon" src="./assets/images/icon-visual.svg">
+              <span class="Visual-title"> Visual </span>
+              <span class="visual-score"> 72 <span class="OutOf"> /100 </span></span>
+            </div>
+            <div class="button">
+
+              <button class="Btn">Continue</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
 
 </body>
 
