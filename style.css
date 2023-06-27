@@ -57,7 +57,7 @@ body {
   color: hsl(221, 100%, 96%);
   line-height: 1;
   background-color: hsl(224, 30%, 27%);
- 
+
   border: 0;
   border-radius: 100vw;
   cursor: pointer;
@@ -213,7 +213,7 @@ body {
 
 .Summary {
   width: 50%;
-  
+
 
 
 }
@@ -222,7 +222,7 @@ body {
 
   margin-top: -15px;
   margin-left: -20px;
-  
+
 
 
 }
@@ -348,7 +348,7 @@ body {
 
 /*  Verbal Section */
 
-.Verbal{
+.Verbal {
   display: flex;
   flex-direction: row;
   display: flex;
@@ -361,22 +361,24 @@ body {
   align-items: center;
   border-radius: 5px;
 }
-.Verbal img{
-  margin-left:10px;
+
+.Verbal img {
+  margin-left: 10px;
 
 }
 
-.Verbal-title{
-  color:hsl(166, 100%, 37%);
-  
+.Verbal-title {
+  color: hsl(166, 100%, 37%);
+
   margin-left: 5px;
 }
-.verbal-score{
-  margin-left:60px;
-  font-weight:800; 
+
+.verbal-score {
+  margin-left: 60px;
+  font-weight: 800;
 }
 
-.Visual{
+.Visual {
   display: flex;
   flex-direction: row;
   display: flex;
@@ -389,28 +391,30 @@ body {
   align-items: center;
   border-radius: 5px;
 }
-.Visual-title{
-  color:hsl(234, 85%, 45%);
-  margin-left:5px;
-}
-.Visual-icon{
-  margin-left:10px;
+
+.Visual-title {
+  color: hsl(234, 85%, 45%);
+  margin-left: 5px;
 }
 
-.visual-score{
-  margin-left:60px;
-  font-weight:800;
+.Visual-icon {
+  margin-left: 10px;
+}
+
+.visual-score {
+  margin-left: 60px;
+  font-weight: 800;
 }
 
 
 
-.Btn{
-  margin-top:30px;
-  height:35px;
-  width:11rem;
-  text-align:center;
-  align-items:center;
+.Btn {
+  margin-top: 30px;
+  height: 35px;
+  width: 12rem;
+  margin-right: 10px;
+  text-align: center;
+  align-items: center;
   display: inline-block;
 
 }
-
